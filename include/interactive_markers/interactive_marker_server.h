@@ -212,9 +212,6 @@ private:
 
   // updates that have to be sent on the next publish
   M_UpdateContext pending_updates_;
-
-  // topic namespace to use
-  std::string topic_ns_;
   
   mutable boost::recursive_mutex mutex_;
 
